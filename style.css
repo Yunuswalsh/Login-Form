@@ -1,0 +1,154 @@
+body{
+background-image: url(./img2.jpg);
+background: cover;
+
+}
+
+
+.box{
+
+    max-width:450px ;
+    height: 400px;
+    border:  solid #000000;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    
+
+}
+/* .box .img img{
+    border-radius: 50%;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+  
+
+}
+img:hover{
+   transform:scale(1.12);
+    
+}  
+
+.box .text p{
+    font-family: "Font Awesome 6 Free";
+    text-align: center;
+    font-size: 25px;
+}
+.box .text span{
+
+
+
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    margin: 20px; */
+
+/* 
+} */
+
+
+
+
+
+h3{
+
+    font-size: 20px;
+    font-family: "Poppins";
+    text-align: center;
+    color: white;
+
+
+}
+#username{
+
+    background: fixed;
+    backdrop-filter: blur(1px);
+    
+    border-radius: 8px;
+    width: 400px;
+    height: 2rem;
+    margin: 20px;
+    padding: 2px;
+    border: solid #808080;
+    color: white;
+    
+}
+#password{
+    background: fixed;
+    backdrop-filter: blur(1px);
+    
+    border-radius: 8px;
+    width: 400px;
+    height: 2rem;
+    margin: 20px;
+    padding: 2px;
+    border: solid #808080;
+    color: white;
+}
+button{
+    background-color: #808080;
+    border-radius: 5px;
+        float: right;
+        height: 32px;
+        width: 75px;
+        transition: 0.5s;
+        margin: auto;
+
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #000000;
+    color: white;
+}
+
+.singup{
+        display: block;
+       flex-direction: column; /* Linkleri dikey sıraya yerleştirir */
+      gap: 10px; /* Linkler arasında boşluk */
+}
+#Renew{
+   color: rgb(40, 15, 106);
+    /* color: rgb(33, 31, 113); */
+    font-family: "Poppins";
+    font-size: 12px;
+   
+    
+    margin-top: 250px;
+}
+
+p{
+    font-family:"Poppins";
+    color: white;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
