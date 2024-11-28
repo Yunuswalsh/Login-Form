@@ -1,3 +1,4 @@
+
 body{
 background-image: url(./img2.jpg);
 background: cover;
@@ -98,7 +99,7 @@ h3{
 }
 button{
     background-color: #808080;
-    border-radius: 5px;
+    border-radius: 7px;
         float: right;
         height: 32px;
         width: 75px;
@@ -134,6 +135,55 @@ p{
 
 }
 
+
+
+
+
+/* şu alandan aşağısı sosyal bağlantıların kodu'dur istemiyorsanız silebilirsiniz veya değiştirebilirsiniz*/
+
+
+.Sosyal{       
+
+    display: flex;
+    gap: 1cm;
+    justify-content: center ;
+    align-items: center;
+}
+.Sosyal a{
+    color: white;
+    text-decoration: none;
+}
+.Sosyal .go{
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-family: "Poppins";
+    border:  solid #ccc;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.go:hover{
+
+    transform: scale(0.900);
+
+}
+.Sosyal .gh{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-family: "Poppins";
+    border:  solid #ccc;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+.gh:hover{
+
+    transform: scale(0.900);
+
+}
 
 
 
